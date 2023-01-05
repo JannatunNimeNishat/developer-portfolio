@@ -2,9 +2,11 @@
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
+
 section {
     margin-top: 130px;
 }
+
 .text-primary {
     color: #FD6E0A;
 }
@@ -94,7 +96,7 @@ main {
 
 /* about section styles*/
 .about {
-  
+
     background: #FFF8F3;
     border-radius: 10px;
     padding: 131px 157px;
@@ -144,7 +146,7 @@ main {
 
 .what-i-do-description {
     font-size: 18px;
-    margin:0 auto;
+    margin: 0 auto;
     text-align: center;
     color: #757575;
     max-width: 909px;
@@ -178,7 +180,45 @@ main {
 }
 
 /* Resume style */
+.resume-content {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 24px;
+}
+.resume-item {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+}
 
+.resume .title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom:10px ;
+}
+
+.resume .sub-title {
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.resume .description {
+    color: #757575;
+    font-size: 16px;
+}
+
+.resume-button {
+    margin-top: 50px;
+    text-align: center;
+    /* margin:0 auto; */
+}
 
 
 
