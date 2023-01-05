@@ -23,6 +23,13 @@ section {
     color: #FFFFFF;
 }
 
+ .contact-btn{
+    background-color: white;
+    color: #FD6E0A;
+    border: 1px solid  #FD6E0A;
+    margin-left:30px ;
+}
+
 /* header style */
 .header {
     background: #FFF8F3;
